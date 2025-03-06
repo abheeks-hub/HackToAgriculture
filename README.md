@@ -1,10 +1,10 @@
-# HackToAgriculture
+# KrishiSevak 
 This is an Agricultural related website. A One-Stop solution realted to agriculture
 Hello There
-# 🌾 HackToAgriculture - A Farmer's One-Stop Solution
+# 🌾 KrishiSevak - A Farmer's One-Stop Solution
 
 ## 🌟 About the Project
-HackToAgriculture is built for farmers, It’s your go-to platform for everything agriculture—whether it’s checking the weather, learning about crops, diagnosing plant diseases, or selling seeds and fertilizers directly to buyers. No middlemen, just direct connections! 🚜🌱
+KrishiSevak is built for farmers, It’s your go-to platform for everything agriculture—whether it’s checking the weather, learning about crops, diagnosing plant diseases, or selling seeds and fertilizers directly to buyers. No middlemen, just direct connections! 🚜🌱
 
 ### What You’ll Find Here:
 - **🌦️ Weather Updates** – Get real-time weather forecasts to plan your farming activities better.
