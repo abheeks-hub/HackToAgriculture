@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('image3.jpg') no-repeat center center/cover; /* Single background image */
+    color: #f5f5f5; /* Light text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(20, 20, 20, 0.85); /* Darker translucent background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(12px);
+}
+
+/* Headings */
+h1, h2 {
+    color: #a8df65; /* Soft green for contrast */
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Navigation Links */
+p a {
+    text-decoration: none;
+    color: #d4a373; /* Warm earthy tone */
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+p a:hover {
+    color: #f1c27d; /* Slightly brighter warm tone */
+}
+
+/* Buttons */
+button, .buy-sell-btn {
+    width: auto;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #2d6a4f; /* Deep green */
+    color: #fff;
+}
+
+button:hover {
+    background-color: #1b4332; /* Darker green */
+}
+
+.buy-sell-btn {
+    display: inline-block;
+    background-color: #d4a373; /* Earthy warm brown */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 25px;
+}
+
+.buy-sell-btn:hover {
+    background-color: #b08968; /* Darker warm brown */
+}
+
+/* Input Fields */
+input, select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #a67c52; /* Light brown border */
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 253, 247, 0.8); /* Light cream with transparency */
+    color: #3e2723; /* Dark brown */
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #2d6a4f; /* Green focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(45, 106, 79, 0.6);
+    transform: scale(1.05);
+}
+
+/* Sections */
+#weatherResult, #cropPriceResult, #soilRecommendationResult, #buyResult, #sellResult {
+    background-color: rgba(20, 20, 20, 0.9); /* Darker modern look */
+    border-left: 5px solid #a8df65; /* Green highlight */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll-Triggered Fade-In Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
